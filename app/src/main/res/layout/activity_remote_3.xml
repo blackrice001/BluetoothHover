@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_Back"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Back"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btn_Send_Position"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Back"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Send Position"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btn_Set_Current"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Send_Position"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Set Current Position"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <RadioGroup
+        android:id="@+id/Position_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio_B2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:duplicateParentState="false"
+            android:text="八甲-電資(電子)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_B1"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-電資(電機)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_B34"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-電資(光資)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_I1"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-資訊處"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_A1_1"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-理一(機械)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_A2"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-理二(能源)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_Family"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-全家"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_A1_2"
+            style="@android:style/Widget.Holo.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="八甲-理一(化工)"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/Edit_Position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Set_Current"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:inputType="number"
+        android:text="19"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+</RelativeLayout>

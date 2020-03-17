@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blackrice000.hoverboard">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".RemoteActivity"
+            android:label="Remote Mode 1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".RemoteActivity_2"
+            android:label="Remote Mode 2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoteActivity_3"
+            android:label="GPS Mode 0"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoteActivity_4"
+            android:label="GPS Mode 1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RemoteActivity_5"
+            android:label="GPS Mode 2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SetActivity"
+            android:label="Set"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DeviceListActivity"></activity>
+    </application>
+
+</manifest>

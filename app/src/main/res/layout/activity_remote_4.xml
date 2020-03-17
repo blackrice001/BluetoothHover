@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_Back"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Back"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btn_Send_Position"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Back"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="Send Position"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <RadioGroup
+        android:id="@+id/Position_Group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radio_Playground_A"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二坪-操場-A"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="normal|bold"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_Playground_B"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二坪-操場-B"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_Playground_C"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二坪-操場-C"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <RadioButton
+            android:id="@+id/radio_Playground_D"
+            style="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="二坪-操場-D"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+    </RadioGroup>
+
+</RelativeLayout>

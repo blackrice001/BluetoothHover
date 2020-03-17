@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.blackrice000.hoverboard.MainActivity">
+
+    <Button
+        android:text="Set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Set"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        style="@android:style/Widget.Holo.Button" />
+
+    <Button
+        android:text=" Remote Mode1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Set"
+        android:id="@+id/btn_Remote_0"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        style="@android:style/Widget.Holo.Button" />
+
+    <Button
+        android:text="Remote Mode2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Remote_1"
+        style="@android:style/Widget.Holo.Button"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_Remote_0"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="GPS Mode(八甲校園)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_GPS_0"
+        style="@android:style/Widget.Holo.Button"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_Remote_1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="GPS Mode(二坪操場)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_GPS_1"
+        style="@android:style/Widget.Holo.Button"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_GPS_0"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="GPS Mode(指定座標)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_GPS_2"
+        style="@android:style/Widget.Holo.Button"
+        android:textSize="30sp"
+        android:layout_below="@+id/btn_GPS_1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_Exit"
+        android:textSize="30sp"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

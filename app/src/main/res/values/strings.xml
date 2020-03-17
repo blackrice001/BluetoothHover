@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Hoverboard</string>
+    <string name="scanning">Scanning...</string>
+    <string name="none_paired">None Paired</string>
+    <string name="none_found">None Found</string>
+    <string name="select_device">Select Device</string>
+    <string name="title_other_devices">Other Device</string>
+
+    <string name="Button_Scan">Scan</string>
+    <string name="Button_Discover">Discover</string>
+    <string name="Button_Send">Send</string>
+    <string name="Button_Connect">Connect</string>
+    <string name="Button_Disconnect">Disconnect</string>
+    <string name="Button_TurnOff">TurnOff</string>
+    <string name="Button_Back">Back</string>
+    <string name="Button_TurnOn">TurnOn</string>
+
+</resources>
